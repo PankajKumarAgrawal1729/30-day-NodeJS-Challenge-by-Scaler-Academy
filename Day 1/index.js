@@ -11,10 +11,10 @@ function readFileContent(filePath) {
 }
 
 readFileContent('Day\ 1/test-files/file1.txt');
-// Expected Output: Content of file1.txt
+// Output: Content of file1.txt
 
 readFileContent('Day\ 1/test-files/empty-file.txt');
-// Expected Output: (empty string)
+// Output: (empty string)
 
 readFileContent('Day\ 1/test-files/nonexistent-file.txt');
-// Expected Output: Error reading file: ENOENT: no such file or directory...
+// Output: Error reading file: ENOENT: no such file or directory...
